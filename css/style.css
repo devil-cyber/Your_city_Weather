@@ -1,0 +1,35 @@
+body{
+    background-image: url(night.png);
+}
+.container{
+    text-align: center;
+}
+.logo{
+    font-size:2.5rem;
+    color:rgb(100,210,110);
+}
+#name{
+    font-size: 1.8rem;
+    color:orange;
+}
+#display{
+    margin-top: 3%;
+}
+#image{
+    width:10%;
+}
+#block1,#block2{
+    display:inline-block;
+    /* color:rgb(150,234,130); */
+}
+#block1{
+    color:rgb(100,210,110);
+    font-weight: bold;
+    font-family: cursive;
+}li{
+    list-style: none;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
